@@ -1,0 +1,8 @@
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\obj\Debug\Calc.sharp.csprojResolveAssemblyReference.cache
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\obj\Debug\Calc.sharp.MainForm.resources
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\obj\Debug\Calc.sharp.csproj.GenerateResource.Cache
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\bin\Debug\Calc.sharp.exe.config
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\bin\Debug\Calc.sharp.exe
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\bin\Debug\Calc.sharp.pdb
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\obj\Debug\Calc.sharp.exe
+C:\Users\manas\Documents\SharpDevelop Projects\Calc.sharp\Calc.sharp\obj\Debug\Calc.sharp.pdb

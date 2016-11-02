@@ -55,7 +55,9 @@ namespace Calc.sharp
 			this.button17 = new System.Windows.Forms.Button();
 			this.button18 = new System.Windows.Forms.Button();
 			this.button19 = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
+			this.panel1 = new System.Windows.Forms.Panel();
+			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+			this.panel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// button1
@@ -229,20 +231,28 @@ namespace Calc.sharp
 			this.button19.Text = "button19";
 			this.button19.UseVisualStyleBackColor = true;
 			// 
-			// label1
+			// panel1
 			// 
-			this.label1.Location = new System.Drawing.Point(20, 13);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(186, 42);
-			this.label1.TabIndex = 20;
-			this.label1.Text = "label1";
+			this.panel1.Controls.Add(this.richTextBox1);
+			this.panel1.Location = new System.Drawing.Point(1, 1);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(205, 69);
+			this.panel1.TabIndex = 21;
+			// 
+			// richTextBox1
+			// 
+			this.richTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.richTextBox1.Location = new System.Drawing.Point(9, 11);
+			this.richTextBox1.Name = "richTextBox1";
+			this.richTextBox1.Size = new System.Drawing.Size(186, 48);
+			this.richTextBox1.TabIndex = 0;
+			this.richTextBox1.Text = "";
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(206, 322);
-			this.Controls.Add(this.label1);
 			this.Controls.Add(this.button17);
 			this.Controls.Add(this.button18);
 			this.Controls.Add(this.button19);
@@ -262,11 +272,14 @@ namespace Calc.sharp
 			this.Controls.Add(this.button3);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
+			this.Controls.Add(this.panel1);
 			this.Name = "MainForm";
 			this.Text = "Calc.sharp";
+			this.panel1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.RichTextBox richTextBox1;
+		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Button button19;
 		private System.Windows.Forms.Button button18;
 		private System.Windows.Forms.Button button17;
